@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Passenger - Dashboard</title>
+    <style>
+        .r-icon {
+            font-size: 39px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+            
+            <hr>
+            <ul class="nav side-nav-items nav-pills block-column ">
+              <li class="nav-item d-flex">
+                <span class="material-symbols-outlined">
+                    category
+                    </span>
+                Dashboard
+              </li>
+        
+              <br>
+              <li class="nav-item d-flex ">
+                <span class="material-symbols-outlined">
+                    category
+                    </span>
+                Dashboard
+              </li>
+              <br>
+              <li class="nav-item d-flex ">
+                <span class="material-symbols-outlined">
+                    category
+                    </span>
+                Dashboard
+              </li>
+              <br>
+              <li class="nav-item d-flex">
+                <span class="material-symbols-outlined rounded bg-light text-success fs-2">
+                    category
+                    </span>
+                Dashboard
+              </li>
+              
+            </ul>
+            
+            </div>
+          </div>
+      </div>
+
+
+
+
+      
+
+
+    <nav class="navbar navbar-expand-md  shadow-lg fixed-top">
+        <div class="container-fluid">
+           <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <span class="material-symbols-outlined fs-3 p-3">
+                    menu_open
+                    </span>
+            </span>
+            <a class="navbar-brand fw-bolder fs-4 text-white" href="#">Safari<span class="span-logo">Plus</span> </a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">RECENT</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+<!--sideber-->
+
+
+    <!--bottom fixes dar-->
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-bottom text-white ">
+        <div class="container-fluid">
+            <div class="bottom-icons d-flex mx-4">
+
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        home
+                    </span>
+                    <p class="fw-bolder">HOME</p>
+                </div>
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        directions_car
+                    </span>
+                    <p class="fw-bolder">TRIPS</p>
+                </div>
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        notifications_active
+                    </span>
+                    <p class="fw-bolder">INFO</p>
+                </div>
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        menu
+                    </span>
+                    <p class="fw-bolder">MENU</p>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <div class="top-coursel">
+
+    </div>
+    <div class=" inner-coursel position-absolute shadow-lg text-white ">
+        <div class="rowz ">
+            <div class="col-md- icon-group">
+                <span class="material-symbols-outlined r-icon bg-success rounded-circle p-2 ">
+                    sync_alt
+                </span>
+                <h4 class="h-icon1 text-dark fw-bolder">Filter</h4>
+            </div>
+
+            <div class="col-md- icon-group ">
+                <span class="material-symbols-outlined r-icon bg-success rounded-circle p-2">
+                    auto_mode
+                </span>
+
+                <h4 class="h-icon text-dark fw-bolder">Recent</h4>
+            </div>
+            <div class="col-md- icon-group align-items-center">
+                <span class="material-symbols-outlined r-icon bg-success rounded-circle p-2">
+                    person
+                </span>
+                <h4 class="h-icon text-dark fw-bolder">Account</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--recent trips section-->
+    <section class="my-5 py-4">
+        <div class="container bg-light">
+            <h2 class=" fw-bolder my-2 ">Recent trips</h2>
+            <div class="card shadow-sm border-4 bg-white text-dark">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img class="rounded mx-auto d-block" src="/static/images/car1.jpg" alt="" srcset=""
+                            height="200px%" width="100%">
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="card-d1">
+                                <p>From: <strong>Morogoro</strong> </p>
+                                <p>To: <strong>Kilimanjaro</strong></p>
+                            </div>
+                            <div class="card-d2">
+                                <p class="fs-4">Passengers And Small Cargo</p>
+
+                            </div>
+                            <div class="card-d3">
+                                <p class="fs-4"><strong>5 </strong>Available Seats |</p>
+                                <p class="fw-4"><strong>5 Days</strong> To Go</p>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="card shadow-sm border-4 bg-white text-dark">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img class="rounded mx-auto d-block" src="/static/images/car4.png" alt="" srcset=""
+                            height="200px%" width="100%">
+<hr>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="card-d1">
+                                <p>From: <strong>Morogoro</strong> </p>
+                                <p>To: <strong>Kilimanjaro</strong></p>
+                            </div>
+                            <div class="card-d2">
+                                <p class="fs-4">Passengers And Small Cargo</p>
+
+                            </div>
+                            <div class="card-d3">
+                                <p class="fs-4"><strong>6 </strong>Available Seats |</p>
+                                <p class="fw-4"><strong>5 Days</strong> To Go</p>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="card shadow-sm border-4 bg-white text-dark">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img class="rounded mx-auto d-block" src="/static/images/car2.jpg" alt="" srcset=""
+                            height="200px%" width="100%">
+
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="card-d1">
+                                <p>From: <strong>Morogoro</strong> </p>
+                                <p>To: <strong>Kilimanjaro</strong></p>
+                            </div>
+                            <div class="card-d2">
+                                <p class="fs-4">Passengers And Small Cargo</p>
+
+                            </div>
+                            <div class="card-d3">
+                                <p class="fs-4"><strong>5 </strong>Available Seats |</p>
+                                <p class="fw-4"><strong>5 Days</strong> To Go</p>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card shadow-sm border-4 bg-white text-dark">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img class="rounded mx-auto d-block" src="/static/images/car3.jpg" alt="" srcset=""
+                            height="200px%" width="100%">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <div class="card-d1">
+                                <p>From: <strong>Morogoro</strong> </p>
+                                <p>To: <strong>Kilimanjaro</strong></p>
+                            </div>
+                            <div class="card-d2">
+                                <p class="fs-4">Passengers And Small Cargo</p>
+
+                            </div>
+                            <div class="card-d3">
+                                <p class="fs-4"><strong>5 </strong>Available Seats |</p>
+                                <p class="fw-4"><strong>5 Days</strong> To Go</p>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <script src="/static/js/bootstrap.bundle.js"></script>
+    <script src="/static/scripts.js"></script>
+</body>
+
+</html>

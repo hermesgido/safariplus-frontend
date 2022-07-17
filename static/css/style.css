@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.span-logo {
+    color: rgb(3, 238, 31);
+    font-size: 23px;
+
+}
+
+.top-coursel {
+    height: 150px;
+    background-color: rgb(215, 100, 11);
+
+}
+
+.inner-coursel {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    height: 100px;
+    width: 85%;
+    border-radius: 10px;
+}
+
+.h-icon {
+    margin-left: -14px;
+}
+
+.rowz {
+    display: flex;
+    gap: 42px;
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.card-d1 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.card-d2 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.card-d3 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.navbar-bottom {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 75px;
+    background-color: rgb(215, 100, 11);
+}
+
+.bottom-icons {
+    gap: 35px;
+    padding-top: px;
+}
+
+.bottom-icons p {
+    margin: 1px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.side-nav-items {
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 72px;
+
+}
+
+.side-nav-items span {
+
+    font-size: 29px;
+    color: green;
+    font-weight: 700;
+
+
+}
+
+.side-nav-items li {
+    display: flex;
+    gap: 9px;
+    font-size: 22px;
+    color: dark;
+    font-weight: 700;
+
+
+
+}
+
+.product-detail .ro {
+    display: flex;
+}
+
+.product-details .seats {
+
+    display: flex;
+
+    height: 200px;
+    background-image: url(/static/images/car1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.product-details .seats .inner-item {
+    margin-top: 90px;
+    font-size: 22px;
+    padding: 34px;
+    font-weight: 600;
+    background-color: black;
+    opacity: 80%;
+    text-transform: capitalize;
+
+    color: #ffff;
+}
+
+.product-details .seats .inner-item p {
+    padding: -20px;
+    margin-top: -20px;
+
+}
+
+.product-details .seats .inner-item strong {
+    padding: -20px;
+    margin-top: -20px;
+
+}
+
+.inner-item-profile {
+    display: flex;
+    gap: 30px;
+    padding: 5px;
+    margin-left: 22px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.inner-item-profile .profile img {
+    border-radius: 3px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.inner-item-profile .profile .driver-name {
+    display: block;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.inner-item-profile .driver-name {
+    display: block;
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.inner-item-profile .profile p {
+    margin-left: px;
+}
+
+.from-to{
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    gap: 36px;
+    margin-left: 0px;
+}
+.drr{
+    gap: 150px;
+}
+.card-d22{
+    margin-top: 10px;
+    height: 150px;
+    background-color: rgb(234, 237, 237);
+    border-radius: 10px;
+}
+.card-d22 p{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.time-leave{
+    display: flex;
+    gap: 43px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    font-size: 22px;
+
+}

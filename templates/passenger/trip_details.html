@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Passenger - Dashboard</title>
+    <style>
+        .r-icon {
+            font-size: 39px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+
+            <hr>
+            <ul class="nav side-nav-items nav-pills block-column ">
+                <li class="nav-item d-flex">
+                    <span class="material-symbols-outlined">
+                        category
+                    </span>
+                    Dashboard
+                </li>
+
+                <br>
+                <li class="nav-item d-flex ">
+                    <span class="material-symbols-outlined">
+                        category
+                    </span>
+                    Dashboard
+                </li>
+                <br>
+                <li class="nav-item d-flex ">
+                    <span class="material-symbols-outlined">
+                        category
+                    </span>
+                    Dashboard
+                </li>
+                <br>
+                <li class="nav-item d-flex">
+                    <span class="material-symbols-outlined rounded bg-light text-success fs-2">
+                        category
+                    </span>
+                    Dashboard
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+    <nav class="navbar navbar-expand-md  shadow-lg fixed-top">
+        <div class="container-fluid">
+            <!--  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                <span class="material-symbols-outlined fs-3 p-3">
+                    menu_open
+                </span>
+            </span>
+            <a class="navbar-brand fw-bolder fs-4 text-white" href="#">Safari<span class="span-logo">Plus</span> </a>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">RECENT</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--sideber-->
+
+
+    <!--bottom fixes dar-->
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-bottom text-white ">
+        <div class="container-fluid">
+            <div class="bottom-icons d-flex mx-4">
+
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        home
+                    </span>
+                    <p class="fw-bolder">HOME</p>
+                </div>
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        directions_car
+                    </span>
+                    <p class="fw-bolder">TRIPS</p>
+                </div>
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        notifications_active
+                    </span>
+                    <p class="fw-bolder">INFO</p>
+                </div>
+                <div class="bottom-item">
+                    <span class="material-symbols-outlined b-icon bg-success text-white rounded-circle p-2 ">
+                        menu
+                    </span>
+                    <p class="fw-bolder">MENU</p>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="trip-details my-5 py-5">
+
+
+        <div class="card shadow-sm  bg-white text-dark product-details ">
+            <div class="row g-0 ">
+                <div class="col-md-4 seats ">
+                    <div class="inner-item ">
+                        <p>Seats</p>
+                        <strong>7</strong>
+                    </div>
+                    <div class="inner-item">
+                        <p>Booked</p>
+                        <strong>4</strong>
+                    </div>
+                    <div class="inner-item">
+                        <p>booked</p>
+                        <strong>4</strong>
+                    </div>
+
+                </div>
+                <div class="card-body">
+                <div class=" d-inline-flex  drr">
+                    <p class="mx-2 fs-3">Driver | Male</p>
+                <button class=" btn  btn-success ">Verified</button>
+                </div>
+                <div class="col-md-4 inner-item-profile">
+
+                    <div class=" profile ">
+
+                        <img src="/static/images/car1.jpg" alt="" srcset="">
+
+                    </div>
+                    <div class="driver-name">
+                        <strong>Hermes gido</strong>
+                        <div class="d-inline=flex">
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                            <span class="material-symbols-outlined">
+                                star
+                                </span>
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                            <span class="material-symbols-outlined">
+                                star
+                            </span>
+                            <strong>(21)</strong>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="from-to ">
+                    <div class="item-one">
+                        <p>From:<br>
+                        <strong>Dar es salaam</strong><br>
+                        Kinondoni</p>
+                    </div>
+                    <div class="item-one">
+                        <p>To: <br>
+                        <strong>Dar es salaam</strong><br>
+                        Kinondoni</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                        <div class="card-d2">
+                            <p class="fs-4 text-capitalize">What i carry <br>
+                                <strong>Passengers And Small Cargo</strong></p>
+
+                        </div>
+                        <div class="card-d3">
+                            <p class="fs-4"><strong>50,000Tsh </strong>Per Seat |</p>
+                            <p class="fw-4"><strong>5 Days</strong> To Go</p>
+                        </div>
+                        <button class=" btn btn-primary mx-5 px-5 text-center">REQUEST</button>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-d22">
+            <p>Time Management</p>
+
+            <div class="d-flex time-leave">
+                <p>Leaving Time <br>
+                    <strong>7th,July 2022</strong></p>
+                    <p>Arriving Time <br>
+                        <strong>7th,July 2022</strong></p>
+            </div>
+                            
+        </div>
+
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <script src="/static/js/bootstrap.bundle.js"></script>
+    <script src="/static/scripts.js"></script>
+</body>
+
+</html>
